@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<!--Last 			Date Updated:  31 March 2007
+	Author:  		Sandy Salamath
+	Filename:		homepage.html
+	Description:	This page is the home page and is the gateway to access the system.  It is the first page the user accesses.  -->
+
+    <script language="JavaScript" type="text/javascript">  <!-- This script returns the current date -->
+		var today_date= new Date()
+		var month=today_date.getMonth()
+		var today=today_date.getDate()
+		var year=today_date.getYear()
+
+		var months = new Array(
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October",
+			"November",
+			"December");
+     </script>
+	 
+     <link rel="stylesheet" href="../cssfiles/soil.css" type="text/css" />	<!-- Calls CSS files -->
+	
+
+    <title>Central Experimental Station Home Page</title>
+</head>
+     
+	
+<body>
+    <table align="center" width="90%" 
+		       summary="This table is used for the home page layout.  ">
+      <tr>
+        <td colspan="2" rowspan="4"><img src="../htmlfiles/CES.jpg" width="369" height="180" alt="CES Office"/></td>
+        <td width="80%" height="122" align="center" class= "maintitle" >Central Experiment Station </td>
+      </tr>
+	  
+	  <tr>	
+        <td height="56" align="center" colspan="2" class="headingtextcenter" bgcolor="#FFCC66">Soils Analysis Decision Support System </td>
+      </tr>
+    </table>
+	
+	<table width="90%" align="center"  bgcolor="#FFFFFF"
+				summary="This table is used for page layout and for menu options to access the system. ">
+      <tr>
+	  	<td align="center" colspan="2" class="highlights" bgcolor="#CCFF99">HOME</td>
+        <td width="11%"><img src="../htmlfiles/soilLab2.JPG" alt="soil lab picture one" width="135" height="100" /></td>
+        <td width="11%"><img src="../htmlfiles/fertilizer.JPG" alt="bags of fertilizer" width="135" height="100" /></td>
+        <td width="11%"><img src="../htmlfiles/soilLab1.JPG" alt="soil lab picture two" width="135" height="100" /></td>
+        <td width="11%"><img src="../htmlfiles/lilly.JPG" alt="lilly" width="135" height="100" /></td>
+        <td width="11%"><img src="../htmlfiles/field.JPG" alt="seedling" width="135" height="100" /></td>
+        <td width="11%"><img src="../htmlfiles/cattle.JPG" alt="cattle" width="135" height="100" /></td>
+        <td width="11%"><img src="../htmlfiles/trinidad.JPG" alt="soil map of trinidad" width="135" height="100" /></td>
+      </tr>
+      
+	    
+	  <tr>
+        <td height="40" colspan="2" bgcolor="#CCFF99" class="link"><a href="../phpFiles/userLogin.php">Login</a></td>
+		<td colspan="6" align='center' rowspan="8" class="tabletext"><p>The Research Division was established in 1943 and is located at Centeno, East Trinidad.
+	      <em>Our mission is to Conduct Agricultural Research and related activities consistent with National Agricultural plans and policies.</em></p>
+		  
+            <p>The division manages 793 hectarces of land.  The staff profile includes:
+		    <li>Agronomists, Entomologists, Plant Pathologists, Soil Scientists, Livestock Officers, Biochemist,  Analytical Chemist.</li>
+			<li>Agric-Officers, Agric-Assistants, Sci Assts,  Draughtsmen, Plant Quarantine Officers.</li>
+		    <li>Research and Service Laboratories</li></p><br/>
+		   
+		  <p>Research programmes:</p>          
+		  <p>Agronomic and Post Harvest Studies on Vegetable Crops, Root Crops, Tropical Fruits, Cocoa cropName Coffee, Rice, Ornamentals and Medicinal Plants </p>
+		  <p>Varietal Trials, Crop Ecology, Soil Management, Fertilizer Trials, Crop Protection, Post Harvest, Biochemistry.</p> </td>
+		  
+		<td bgcolor="#CCFF99" rowspan="8">&nbsp;</td>  
+      </tr>
+	       
+      <tr>
+        <td height="40" class="link" bgcolor="#CCFF99" colspan="2"><a href="../htmlFiles/contact.html">Contact Us</a></td>
+      </tr>
+	  
+      <tr>
+        <td height="40" bgcolor="#CCFF99" colspan="2"><a href="http://www.agriculture.gov.tt/">Ministry of Agriculture</td>
+	  </tr>
+      
+	  <tr>
+        <td height="40" bgcolor="#CCFF99" colspan="2">&nbsp;</td>
+	  </tr>
+      
+	  <tr>
+        <td height="40" bgcolor="#CCFF99" colspan="2">&nbsp;</td>
+	  </tr>
+	  
+	  <tr>
+        <td height="40" bgcolor="#CCFF99" colspan="2">&nbsp;</td>
+	  </tr>
+	  
+	  <tr>
+        <td height="40" bgcolor="#CCFF99" colspan="2">&nbsp;</td>
+	  </tr>
+      
+	  <tr>
+        <td colspan="12" bgcolor="#CCFF99" align="right"><script language="JavaScript" type="text/javascript">document.write(months[month]+" "+today+", "+year)</script></td>
+      </tr>
+   
+   </table>
+ </body>
+</html>
